@@ -1,17 +1,17 @@
 USING HILL CLIMBING
 
-function HILL-CLIMB(problem):
+    function HILL-CLIMB(problem):
 
-  current = initial state of problem
+      current = initial state of problem
 
-  repeat:
+      repeat:
 
-    neighbor = highest valued neighbor of current
+        neighbor = highest valued neighbor of current
 
-    if neighbor not better than current:
+        if neighbor not better than current:
 
-      return current
+          return current
 
-    current = neighbor
+        current = neighbor
 
 
